@@ -11,20 +11,29 @@ export default function Missions({ data }) {
               />
             </div>
             <div className="mission-details">
-              <h2>
+              <h3>
                 {item.mission_name} #{item.flight_number}
-              </h2>
+              </h3>
               <div>
                 Mission IDs:{" "}
                 {!item.mission_id.length
                   ? "Not Available"
-                  : item.mission_id.map((id) => <span key={id}>{id}</span>)}
+                  : item.mission_id.map((id) => (
+                      <span key={id}>{id} </span>
+                    ))}{" "}
               </div>
-              <div>Launch Year: {item.launch_year}</div>
-              <div>Successful Launch: {item.launch_success ? "Yes" : "No"}</div>
+              <div>
+                Launch Year: <span>{item.launch_year}</span>
+              </div>
+              <div>
+                Successful Launch:{" "}
+                <span>{item.launch_success ? "Yes" : "No"}</span>
+              </div>
               <div>
                 Successful Landing:
-                {item.rocket.first_stage.cores[0].land_success ? "Yes" : "No"}
+                <span>
+                  {item.rocket.first_stage.cores[0].land_success ? "Yes" : "No"}
+                </span>
               </div>
             </div>
           </div>

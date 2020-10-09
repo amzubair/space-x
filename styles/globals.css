@@ -21,6 +21,10 @@ body {
   grid-gap: 10px;
 }
 
+.mission-details span {
+  font-weight: 500;
+}
+
 .mission-img {
   width: 100%;
   background: #eee;
@@ -39,11 +43,6 @@ body {
   width: 100%;
   height: auto;
   background: #eee;
-}
-
-.missions-detail {
-  display: grid;
-  align-content: space-between;
 }
 
 .filters,
@@ -106,6 +105,11 @@ header,
 footer,
 main {
   grid-column: 1 / span 2;
+}
+
+main {
+  display: grid;
+  grid-gap: 10px;
 }
 
 @media (min-width: 700px) {
