@@ -46,15 +46,15 @@ export default function Filters({ router }) {
     <div className="filters">
       <div className="filters-container card">
         <div className="filters-section ">
-          <div
+          <button
             className="filters-button filters-clear"
             onClick={() => handleClear()}
           >
             Clear Filters
-          </div>
+          </button>
           <h2>Year</h2>
           {yearsFilters.map((item) => (
-            <div
+            <button
               key={item}
               className={`filters-button ${
                 filters.launch_year == item && filters.launch_year !== ""
@@ -64,20 +64,20 @@ export default function Filters({ router }) {
               onClick={() => handleClick("launch_year", item)}
             >
               {item}
-            </div>
+            </button>
           ))}
         </div>
         <div className="filters-section">
           <h2>Successful Launch</h2>
-          <div
+          <button
             className={`filters-button ${
               filters.launch_success == true ? "selected" : ""
             }`}
             onClick={() => handleClick("launch_success", true)}
           >
             True
-          </div>
-          <div
+          </button>
+          <button
             className={`filters-button ${
               filters.launch_success === ""
                 ? ""
@@ -88,19 +88,19 @@ export default function Filters({ router }) {
             onClick={() => handleClick("launch_success", false)}
           >
             False
-          </div>
+          </button>
         </div>
         <div className="filters-section">
           <h2>Successful Landing</h2>
-          <div
+          <button
             className={`filters-button ${
               filters.land_success == true ? "selected" : ""
             }`}
             onClick={() => handleClick("land_success", true)}
           >
             True
-          </div>
-          <div
+          </button>
+          <button
             className={`filters-button ${
               filters.land_success === ""
                 ? ""
@@ -111,7 +111,7 @@ export default function Filters({ router }) {
             onClick={() => handleClick("land_success", false)}
           >
             False
-          </div>
+          </button>
         </div>
       </div>
     </div>
