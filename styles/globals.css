@@ -86,9 +86,12 @@ body {
 }
 
 .filters-section h2 {
+  grid-column: 1 / span 2;
   font-size: 1em;
   font-weight: 500;
-  grid-column: 1 / span 2;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  text-align: center;
 }
 
 footer {
