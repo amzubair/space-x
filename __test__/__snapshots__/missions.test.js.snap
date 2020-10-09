@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders developed by 1`] = `
+<div
+  className="missions"
+>
+  <div
+    className="mission-container"
+  >
+    <div
+      className="card missions-detail"
+    >
+      <div
+        className="mission-img"
+      >
+        <img
+          alt="Mission patch image for FalconSat"
+          src="https://images2.imgbox.com/3c/0e/T8iJcSN3_o.png"
+        />
+      </div>
+      <div
+        className="mission-details"
+      >
+        <h2>
+          FalconSat
+           #
+          1
+        </h2>
+        <div>
+          Mission IDs:
+           
+          Not Available
+        </div>
+        <div>
+          Launch Year: 
+          2006
+        </div>
+        <div>
+          Successful Launch: 
+          No
+        </div>
+        <div>
+          Successful Landing:
+          No
+        </div>
+      </div>
+    </div>
+    <div
+      className="card missions-detail"
+    >
+      <div
+        className="mission-img"
+      >
+        <img
+          alt="Mission patch image for DemoSat"
+          src="https://images2.imgbox.com/4f/e3/I0lkuJ2e_o.png"
+        />
+      </div>
+      <div
+        className="mission-details"
+      >
+        <h2>
+          DemoSat
+           #
+          2
+        </h2>
+        <div>
+          Mission IDs:
+           
+          Not Available
+        </div>
+        <div>
+          Launch Year: 
+          2007
+        </div>
+        <div>
+          Successful Launch: 
+          No
+        </div>
+        <div>
+          Successful Landing:
+          No
+        </div>
+      </div>
+    </div>
+    <div
+      className="card missions-detail"
+    >
+      <div
+        className="mission-img"
+      >
+        <img
+          alt="Mission patch image for Trailblazer"
+          src="https://images2.imgbox.com/3d/86/cnu0pan8_o.png"
+        />
+      </div>
+      <div
+        className="mission-details"
+      >
+        <h2>
+          Trailblazer
+           #
+          3
+        </h2>
+        <div>
+          Mission IDs:
+           
+          Not Available
+        </div>
+        <div>
+          Launch Year: 
+          2008
+        </div>
+        <div>
+          Successful Launch: 
+          No
+        </div>
+        <div>
+          Successful Landing:
+          No
+        </div>
+      </div>
+    </div>
+    <div
+      className="card missions-detail"
+    >
+      <div
+        className="mission-img"
+      >
+        <img
+          alt="Mission patch image for RatSat"
+          src="https://images2.imgbox.com/e9/c9/T8CfiSYb_o.png"
+        />
+      </div>
+      <div
+        className="mission-details"
+      >
+        <h2>
+          RatSat
+           #
+          4
+        </h2>
+        <div>
+          Mission IDs:
+           
+          Not Available
+        </div>
+        <div>
+          Launch Year: 
+          2008
+        </div>
+        <div>
+          Successful Launch: 
+          Yes
+        </div>
+        <div>
+          Successful Landing:
+          No
+        </div>
+      </div>
+    </div>
+    <div
+      className="card missions-detail"
+    >
+      <div
+        className="mission-img"
+      >
+        <img
+          alt="Mission patch image for RazakSat"
+          src="https://images2.imgbox.com/a7/ba/NBZSw3Ho_o.png"
+        />
+      </div>
+      <div
+        className="mission-details"
+      >
+        <h2>
+          RazakSat
+           #
+          5
+        </h2>
+        <div>
+          Mission IDs:
+           
+          Not Available
+        </div>
+        <div>
+          Launch Year: 
+          2009
+        </div>
+        <div>
+          Successful Launch: 
+          Yes
+        </div>
+        <div>
+          Successful Landing:
+          No
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

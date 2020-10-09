@@ -38,7 +38,6 @@ export default function Filters({ router }) {
         ? (filtered[item] = filters[item])
         : delete filtered[item]
     );
-    console.log(filtered);
     router.push({ query: filtered });
   }, [filters]);
 

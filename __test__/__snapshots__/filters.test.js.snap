@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders developed by 1`] = `
+<div
+  className="filters"
+>
+  <div
+    className="filters-container card"
+  >
+    <div
+      className="filters-section "
+    >
+      <button
+        className="filters-button filters-clear"
+        onClick={[Function]}
+      >
+        Clear Filters
+      </button>
+      <h2>
+        Year
+      </h2>
+      <button
+        className="filters-button "
+        onClick={[Function]}
+      >
+        2006
+      </button>
+      <button
+        className="filters-button "
+        onClick={[Function]}
+      >
+        2007
+      </button>
+      <button
+        className="filters-button "
+        onClick={[Function]}
+      >
+        2008
+      </button>
+      <button
+        className="filters-button "
+        onClick={[Function]}
+      >
+        2009
+      </button>
+      <button
+        className="filters-button "
+        onClick={[Function]}
+      >
+        2010
+      </button>
+      <button
+        className="filters-button "
+        onClick={[Function]}
+      >
+        2011
+      </button>
+      <button
+        className="filters-button "
+        onClick={[Function]}
+      >
+        2012
+      </button>
+      <button
+        className="filters-button "
+        onClick={[Function]}
+      >
+        2013
+      </button>
+      <button
+        className="filters-button "
+        onClick={[Function]}
+      >
+        2014
+      </button>
+      <button
+        className="filters-button "
+        onClick={[Function]}
+      >
+        2015
+      </button>
+      <button
+        className="filters-button "
+        onClick={[Function]}
+      >
+        2016
+      </button>
+      <button
+        className="filters-button "
+        onClick={[Function]}
+      >
+        2017
+      </button>
+      <button
+        className="filters-button "
+        onClick={[Function]}
+      >
+        2018
+      </button>
+      <button
+        className="filters-button selected"
+        onClick={[Function]}
+      >
+        2019
+      </button>
+      <button
+        className="filters-button "
+        onClick={[Function]}
+      >
+        2020
+      </button>
+    </div>
+    <div
+      className="filters-section"
+    >
+      <h2>
+        Successful Launch
+      </h2>
+      <button
+        className="filters-button "
+        onClick={[Function]}
+      >
+        True
+      </button>
+      <button
+        className="filters-button "
+        onClick={[Function]}
+      >
+        False
+      </button>
+    </div>
+    <div
+      className="filters-section"
+    >
+      <h2>
+        Successful Landing
+      </h2>
+      <button
+        className="filters-button "
+        onClick={[Function]}
+      >
+        True
+      </button>
+      <button
+        className="filters-button "
+        onClick={[Function]}
+      >
+        False
+      </button>
+    </div>
+  </div>
+</div>
+`;
