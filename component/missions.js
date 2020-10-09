@@ -5,11 +5,7 @@ export default function Missions({ data }) {
         {data.map((item) => (
           <div key={item.flight_number} className="card missions-detail">
             <div className="mission-img">
-              <img
-                src={item.links.mission_patch_small}
-                alt=""
-                referrerPolicy="no-referrer"
-              />
+              <img src={item.links.mission_patch_small} alt="" />
             </div>
             <div className="mission-details">
               <h2>
