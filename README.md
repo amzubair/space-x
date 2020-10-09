@@ -1,30 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SpaceX Launch Programs
 
-## Getting Started
+![Lighthouse Report](/image/lighthouse-report.png)
 
-First, run the development server:
+The above is the report generated from lighthouse with regard to the performance, accessiblity, best practices and SEO. 
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+[Link to the Application](https://mj-spacex.herokuapp.com)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Functionality
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- [x] The initial launch programs landing page has to be server side rendered. 
+- [x] This app is made with next.js o implement the Server-side rendering.
+- [x] Missions can be filtered based on launch year, successful lanuch, and successful landing
+- [x] Applied filters changes the URL and updates the Page with latest records without refreshing the page
+- [x] The page can be refreshed with the applied filters in the URL and. 
 
-## Learn More
+### Design
 
-To learn more about Next.js, take a look at the following resources:
+- [x] The application is responsive and is implemented with mobile first approch.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Tecnology Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The application is built with React.js and uses next.js framework to take advantage of the server-side rendering capabilities it provides out of the box. 
 
-## Deploy on Vercel
+### Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The application is hosted on heroku and the source-code is on github. The application is automatically deployed to heroku when there is a push to the master branch in github repo. 
